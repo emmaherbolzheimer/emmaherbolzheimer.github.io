@@ -1,0 +1,21 @@
+# Site settings
+title: Emma Herbolzheimer
+header-img: img/home-bg.png
+email: emmajherbolzheimer@gmail.com
+copyright_name: emmaherbolzheimer
+description: > # this means to ignore newlines until "baseurl:"
+  Taking the Deep Dive
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  emmaherbolzheimer
+learn_profile: emmaherbolzheimer
+email_username: emmajherbolzheimer@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
